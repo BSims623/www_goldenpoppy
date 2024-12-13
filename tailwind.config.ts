@@ -10,8 +10,12 @@ export default {
     extend: {
       colors: {
         primary: "var(--background)",
+        primaryHover: "var(--primary-hover)",
         secondary: "var(--foreground)",
-        accent: "var(--accent)"
+        accent: "var(--accent)",
+      },
+      spacing: {
+        mainSize: "var(--main-size)",
       },
     },
   },

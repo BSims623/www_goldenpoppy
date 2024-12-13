@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 :root {
+  --primary-hover: #2a3d5f;
   --background: #22314a;
   --foreground: #fffaf9;
   --accent: #ff7e00;
+  --main-size: calc(100vh - 80px);
 }
 
 body {

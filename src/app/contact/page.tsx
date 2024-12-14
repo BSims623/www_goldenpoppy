@@ -2,6 +2,7 @@ import { Mail, Phone, House } from "lucide-react";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { ContactForm } from "@/components/ContactForm";
+import { cormorant } from "@/app/fonts";
 
 export default function ContactPage() {
   return (
@@ -16,10 +17,12 @@ export default function ContactPage() {
         />
         <div className="flex h-full flex-col justify-between rounded text-primary">
           <div>
-            <h1 className="text-center text-2xl font-bold">
+            <h1 className={`text-center text-3xl ${cormorant.className}`}>
               Kimberlee Greenwood
             </h1>
-            <h2 className="my-2 text-center text-xl font-bold">Owner</h2>
+            <h2 className={`my-2 text-center text-2xl ${cormorant.className}`}>
+              Owner
+            </h2>
           </div>
           <ul className="mx-auto flex flex-col gap-4">
             <a
@@ -67,7 +70,10 @@ export default function ContactPage() {
             </Link>
           </ul>
           <div className="flex justify-center">
-            <Link href="/free-quote" className="font-bold hover:text-accent">
+            <Link
+              href="/free-quote"
+              className="pt-4 font-bold text-accent hover:text-primary"
+            >
               Get A Free Quote &gt;
             </Link>
           </div>

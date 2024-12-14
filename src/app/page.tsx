@@ -57,7 +57,10 @@ export default function Home() {
               residential appraisal needs.
             </p>
             <div className="flex justify-center">
-              <Link href="/about" className="font-bold hover:text-accent">
+              <Link
+                href="/about"
+                className="font-bold text-accent hover:text-primary"
+              >
                 Learn More &gt;
               </Link>
             </div>

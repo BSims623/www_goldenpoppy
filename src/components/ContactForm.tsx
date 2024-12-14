@@ -48,7 +48,7 @@ export function ContactForm() {
       phone?: string | undefined;
     }) => {
       emailjs
-        .send("contact_service_2", "contact_form_2", values, {
+        .send("question_service", "question_form", values, {
           publicKey: "ErEMFeVs-twp1r6im",
         })
         .then(

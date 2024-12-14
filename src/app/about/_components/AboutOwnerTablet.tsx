@@ -91,7 +91,7 @@ export default function AboutOwnerTablet() {
       </p>
       <Link
         href="https://www.linkedin.com/in/kimberlee-greenwood-b2a215258/"
-        className="font-bold hover:text-accent"
+        className="font-bold text-accent hover:text-primary"
         target="_blank"
       >
         <div className="flex justify-center gap-1">

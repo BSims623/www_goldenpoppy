@@ -23,7 +23,7 @@ export default function Home() {
             height={400}
           />
           <div className="h-full rounded text-primary">
-            <h1 className="mb-4 text-center text-2xl font-bold">
+            <h1 className="mb-4 text-center text-2xl sm:text-3xl">
               About Golden Poppy Appraisal
             </h1>
             <p className="mb-3 indent-8">

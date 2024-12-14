@@ -11,9 +11,11 @@ export default function AboutOwner() {
         width={768}
         height={768}
       />
-      <h1 className="mb-2 mt-4 text-2xl font-bold">Kimberlee Greenwood</h1>
-      <h2 className="mb-4 text-xl font-bold">
-        Certified Residential Appraiser, Golden Poppy Appraisal
+      <h1 className="mt-4 text-2xl sm:text-3xl">Kimberlee Greenwood</h1>
+      <h2 className="mb-2 text-xl sm:text-2xl">
+        <span className="text-accent">Certified Residential Appraiser</span>{" "}
+        <br />
+        Golden Poppy Appraisal
       </h2>
       <p className="mb-3 indent-8">
         Kimberlee has been a proud Sacramento resident for nearly 20 years.

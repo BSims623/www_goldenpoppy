@@ -4,9 +4,7 @@ export default function AboutDesktop() {
   return (
     <section className="mx-auto hidden w-full max-w-5xl gap-4 lg:grid lg:grid-cols-[auto_496px]">
       <div>
-        <h1 className="mb-4 text-2xl font-bold">
-          About Golden Poppy Appraisal
-        </h1>
+        <h1 className="mb-4 text-3xl">About Golden Poppy Appraisal</h1>
         <p className="mb-3 indent-8">
           At Golden Poppy Appraisal, we recognize that purchasing a home is one
           of the largest investments you&apos;ll ever make. Whether it&apos;s a
@@ -22,7 +20,7 @@ export default function AboutDesktop() {
           protecting buyers, sellers, and lenders alike, enabling informed
           decisions that impact one of life&apos;s most significant investments.
         </p>
-        <h2 className="mb-4 text-xl font-bold">Our Process</h2>
+        <h2 className="mb-4 text-2xl">Our Process</h2>
         <p className="mb-3 indent-8">
           The Golden Poppy appraisal process begins with a meticulous{" "}
           <span className="font-bold text-accent">inspection</span>, where we
@@ -61,7 +59,7 @@ export default function AboutDesktop() {
             estimating value based on expected income over time.
           </li>
         </ol>
-        <h2 className="mb-4 text-xl font-bold">Reaching the Right Value</h2>
+        <h2 className="mb-4 text-2xl">Reaching the Right Value</h2>
         <p className="mb-3 indent-8">
           Once these analyses are complete, we perform a{" "}
           <span className="font-bold text-accent">reconciliation</span> to

@@ -10,7 +10,9 @@ export default function About() {
         width={1024}
         height={372}
       />
-      <h1 className="my-4 text-2xl font-bold">About Golden Poppy Appraisal</h1>
+      <h1 className="mb-2 mt-4 text-2xl sm:text-3xl">
+        About Golden Poppy Appraisal
+      </h1>
       <p className="mb-3 indent-8">
         At Golden Poppy Appraisal, we recognize that purchasing a home is one of
         the largest investments you&apos;ll ever make. Whether it&apos;s a
@@ -33,7 +35,7 @@ export default function About() {
         width={1024}
         height={372}
       />
-      <h2 className="my-4 text-xl font-bold">Our Process</h2>
+      <h2 className="mb-2 mt-4 text-xl sm:text-2xl">Our Process</h2>
       <p className="mb-3 indent-8">
         The Golden Poppy appraisal process begins with a meticulous{" "}
         <span className="font-bold text-accent">inspection</span>, where we
@@ -79,7 +81,9 @@ export default function About() {
         width={1024}
         height={372}
       />
-      <h2 className="my-4 text-xl font-bold">Reaching the Right Value</h2>
+      <h2 className="mb-2 mt-4 text-xl sm:text-2xl">
+        Reaching the Right Value
+      </h2>
       <p className="mb-3 indent-8">
         Once these analyses are complete, we perform a{" "}
         <span className="font-bold text-accent">reconciliation</span> to

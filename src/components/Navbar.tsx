@@ -17,22 +17,23 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-end justify-between bg-primary px-4 lg:px-10">
-      <div className="flex items-center gap-4">
-        <ExportedImage
-          className="object-cover"
-          src="/images/orange_poppy_logo.png"
-          alt="Orange poppy logo."
-          width={60}
-          height={10}
-        />
-        <Link href="/">
+      <Link href="/">
+        <div className="flex items-center gap-4">
+          <ExportedImage
+            className="object-cover"
+            src="/images/orange_poppy_logo.png"
+            alt="Orange poppy logo."
+            width={60}
+            height={10}
+          />
+
           <div
             className={`text-xl font-light sm:text-4xl ${cormorant.className} whitespace-nowrap`}
           >
             Golden Poppy Appraisal
           </div>
-        </Link>
-      </div>
+        </div>
+      </Link>
       <ul
         className={`hidden gap-2 text-lg font-semibold lg:gap-4 ${josefinSans.className} lg:flex`}
       >

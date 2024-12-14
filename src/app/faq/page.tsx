@@ -8,7 +8,7 @@ export default function FaqPage() {
         <h1 className="text-2xl font-bold">Frequently Asked Questions</h1>
         <FaqAccordion />
         <h2 className="text-xl font-bold">
-          Don't see your question? Send it to us!
+          Don&apos;t see your question? Send it to us!
         </h2>
         <ContactForm />
       </div>

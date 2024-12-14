@@ -16,9 +16,9 @@ export function FaqAccordion() {
           Simply put, a residential appraisal is the process of developing a
           highly educated opinion of value (usually market value) for real
           property. An appraisal is typically used in real estate transactions
-          to ensure that the purchase price aligns with the property's market
-          value. There are many reasons you may need an appraisal, such as
-          purchases, refinances, estate valuation, and divorce. Additionally,
+          to ensure that the purchase price aligns with the property&apos;s
+          market value. There are many reasons you may need an appraisal, such
+          as purchases, refinances, estate valuation, and divorce. Additionally,
           several factors determine the value of your property.
         </AccordionContent>
       </AccordionItem>
@@ -67,7 +67,7 @@ export function FaqAccordion() {
         </AccordionTrigger>
         <AccordionContent className="text-lg">
           The appraisal determines the market value of the home, while a home
-          inspection assesses the home's functionality and features. An
+          inspection assesses the home&apos;s functionality and features. An
           appraiser observes the home in its current condition during a site
           visit, whereas a home inspector tests the home to determine if its
           features function properly.
@@ -79,10 +79,10 @@ export function FaqAccordion() {
         </AccordionTrigger>
         <AccordionContent className="text-lg">
           Ensure all areas of the home and any additional structures are
-          accessible. While personal property doesn't affect the value of a
+          accessible. While personal property doesn&apos;t affect the value of a
           home, an uncluttered space allows the appraiser to more accurately
-          assess the home's features and condition. In cases of an FHA or VA
-          loan, the appraiser will check various appliances and systems to
+          assess the home&apos;s features and condition. In cases of an FHA or
+          VA loan, the appraiser will check various appliances and systems to
           verify they are in working order. FHA and VA loans also require access
           to attics and crawl spaces.
         </AccordionContent>
@@ -90,10 +90,11 @@ export function FaqAccordion() {
       <AccordionItem value="item-7">
         <AccordionTrigger className="text-lg">What is a comp?</AccordionTrigger>
         <AccordionContent className="text-lg">
-          The term ‘comp’ refers to a comparable property. In the appraisal
-          process, the appraiser identifies similar properties that have sold to
-          be comparable to the subject property. The sale prices of these
-          comparable properties are then adjusted for differences in features.
+          The term &apos;comp&apos; refers to a comparable property. In the
+          appraisal process, the appraiser identifies similar properties that
+          have sold to be comparable to the subject property. The sale prices of
+          these comparable properties are then adjusted for differences in
+          features.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-8">
@@ -101,12 +102,12 @@ export function FaqAccordion() {
           What is a ROV (Review of Value)?
         </AccordionTrigger>
         <AccordionContent className="text-lg">
-          A Review of Value (ROV) is a process where a property’s appraisal is
-          reviewed for accuracy and compliance with applicable standards. This
-          is often requested by lenders or clients who want to verify the
+          A Review of Value (ROV) is a process where a property&apos;s appraisal
+          is reviewed for accuracy and compliance with applicable standards.
+          This is often requested by lenders or clients who want to verify the
           findings of the initial appraisal. The ROV involves a second appraiser
           analyzing the original appraisal report to ensure that the conclusions
-          regarding the property's value are well-supported and justified.
+          regarding the property&apos;s value are well-supported and justified.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-9">
@@ -116,8 +117,8 @@ export function FaqAccordion() {
         <AccordionContent className="text-lg">
           The appraisal provides an accurate value for a property as of a
           specific date. If the market is rapidly changing, the appraised value
-          may only be ‘good’ for a short period, typically 30-90 days, depending
-          on current market fluctuations.
+          may only be ‘good&apos; for a short period, typically 30-90 days,
+          depending on current market fluctuations.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-10">
@@ -136,24 +137,25 @@ export function FaqAccordion() {
           What are my improvements worth?
         </AccordionTrigger>
         <AccordionContent className="text-lg">
-          The value of improvements depends on the real estate market's reaction
-          to individual features. For example, a pool may be much more valuable
-          to the market in Southern California than it is in Alaska.
+          The value of improvements depends on the real estate market&apos;s
+          reaction to individual features. For example, a pool may be much more
+          valuable to the market in Southern California than it is in Alaska.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-12">
         <AccordionTrigger className="text-lg">
-          What is the difference between an appraisal and a real estate agent's
-          comparative market analysis (CMA)?
+          What is the difference between an appraisal and a real estate
+          agent&apos;s comparative market analysis (CMA)?
         </AccordionTrigger>
         <AccordionContent className="text-lg">
-          A real estate agent’s comparative market analysis (CMA) is a useful
-          tool for grasping a ballpark figure when deciding on a list price for
-          a home. In contrast, an appraisal is prepared by an unbiased third
-          party and provides specific comparable properties that are adjusted to
-          show the most probable price the subject property would sell for
-          (market value). The appraiser is a licensed certified professional
-          whose sole job is to determine values accurately and impartially.
+          A real estate agent&apos;s comparative market analysis (CMA) is a
+          useful tool for grasping a ballpark figure when deciding on a list
+          price for a home. In contrast, an appraisal is prepared by an unbiased
+          third party and provides specific comparable properties that are
+          adjusted to show the most probable price the subject property would
+          sell for (market value). The appraiser is a licensed certified
+          professional whose sole job is to determine values accurately and
+          impartially.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-13">

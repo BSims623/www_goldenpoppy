@@ -1,7 +1,7 @@
 export default function FaqPage() {
   return (
-    <main>
-      <div className="p-4 pt-2">Coming Soon...</div>
+    <main className="flex min-h-mainSize flex-col items-center justify-center bg-secondary text-primary">
+      <div>Coming Soon...</div>
     </main>
   );
 }

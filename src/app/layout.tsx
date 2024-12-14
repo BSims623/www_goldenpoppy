@@ -10,7 +10,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Golden Poppy",
+  title: "Golden Poppy Appraisal",
   description: "Get an appraisal!",
 };
 

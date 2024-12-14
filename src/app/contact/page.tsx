@@ -1,6 +1,6 @@
 export default function ContactPage() {
   return (
-    <main>
+    <main className="flex min-h-mainSize flex-col items-center justify-center bg-secondary text-primary">
       <div>Coming Soon...</div>
     </main>
   );

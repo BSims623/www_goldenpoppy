@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import { FreeQuoteForm } from "./_components/FreeQuoteForm";
+
+export const metadata: Metadata = {
+  title: "Free Quote",
+  description:
+    "Get an free quote for an appraisal in the Greater Sacramento Area.",
+};
 
 export default function FreeQuotePage() {
   return (

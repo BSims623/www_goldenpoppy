@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Services",
+  description: "Get an appraisal.",
+};
 
 export default function ServicesPage() {
   return (

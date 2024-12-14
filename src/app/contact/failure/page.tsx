@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Failure | Contact",
+  description:
+    "Something went wrong. Please try calling us, emailing us directly at Kim@GoldenPoppyAppraisal.com or try again later.",
+};
 
 export default function Failure() {
   return (

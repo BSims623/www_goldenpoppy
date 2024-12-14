@@ -10,7 +10,10 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Golden Poppy Appraisal",
+  title: {
+    default: "Golden Poppy Appraisal",
+    template: "%s | Golden Poppy Appraisal",
+  },
   description: "Get an appraisal!",
 };
 

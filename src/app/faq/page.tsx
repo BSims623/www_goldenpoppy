@@ -1,5 +1,12 @@
 import { ContactForm } from "@/components/ContactForm";
 import { FaqAccordion } from "./_components/FaqAccordion";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "FAQ",
+  description:
+    "Check out our most frequently asked appraisal questions. If you don't see your question, send it to us.",
+};
 
 export default function FaqPage() {
   return (

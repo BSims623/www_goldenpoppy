@@ -3,6 +3,13 @@ import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { ContactForm } from "@/components/ContactForm";
 import { cormorant } from "@/app/fonts";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact",
+  description:
+    "Contact us with any appraisal questions or to get a free quote for an appraisal.",
+};
 
 export default function ContactPage() {
   return (

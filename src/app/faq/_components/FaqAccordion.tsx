@@ -9,10 +9,10 @@ export function FaqAccordion() {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What is a residential appraisal?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           Simply put, a residential appraisal is the process of developing a
           highly educated opinion of value (usually market value) for real
           property. An appraisal is typically used in real estate transactions
@@ -23,10 +23,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           When do I need an appraisal?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           There are many circumstances in which you may need an appraisal. Most
           lenders require an appraisal when you purchase or refinance a home.
           You may also need or want an appraisal before you list your home for
@@ -35,10 +35,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           How long does an appraisal take?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           The first step in the appraisal process is to determine the scope of
           the assignment. If a site visit is required, we typically schedule it
           1-2 weeks in advance. After the site visit, reports are usually
@@ -47,10 +47,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What will the appraiser be looking at when they visit my home?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           During the site visit, the appraiser will note many features of the
           home. They will measure the home to determine living space square
           footage and how that compares to county records. The appraiser will
@@ -62,10 +62,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-5">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What is the difference between an appraisal and a home inspection?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           The appraisal determines the market value of the home, while a home
           inspection assesses the home&apos;s functionality and features. An
           appraiser observes the home in its current condition during a site
@@ -74,10 +74,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-6">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           How should I prepare for my appraisal?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           Ensure all areas of the home and any additional structures are
           accessible. While personal property doesn&apos;t affect the value of a
           home, an uncluttered space allows the appraiser to more accurately
@@ -88,8 +88,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-7">
-        <AccordionTrigger className="text-lg">What is a comp?</AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
+          What is a comp?
+        </AccordionTrigger>
+        <AccordionContent className="text-left text-lg">
           The term &apos;comp&apos; refers to a comparable property. In the
           appraisal process, the appraiser identifies similar properties that
           have sold to be comparable to the subject property. The sale prices of
@@ -98,10 +100,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-8">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What is a ROV (Review of Value)?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           A Review of Value (ROV) is a process where a property&apos;s appraisal
           is reviewed for accuracy and compliance with applicable standards.
           This is often requested by lenders or clients who want to verify the
@@ -111,10 +113,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-9">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           How long is an appraisal good for?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           The appraisal provides an accurate value for a property as of a
           specific date. If the market is rapidly changing, the appraised value
           may only be ‘good&apos; for a short period, typically 30-90 days,
@@ -122,10 +124,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-10">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           Is personal property valued in an appraisal?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           Appraisers are trained to see beyond personal property items.
           Generally, if an item can be removed from the home, it is considered
           personal property. Common personal property items include hot tubs,
@@ -133,21 +135,21 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-11">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What are my improvements worth?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           The value of improvements depends on the real estate market&apos;s
           reaction to individual features. For example, a pool may be much more
           valuable to the market in Southern California than it is in Alaska.
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-12">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           What is the difference between an appraisal and a real estate
           agent&apos;s comparative market analysis (CMA)?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           A real estate agent&apos;s comparative market analysis (CMA) is a
           useful tool for grasping a ballpark figure when deciding on a list
           price for a home. In contrast, an appraisal is prepared by an unbiased
@@ -159,10 +161,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-13">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           Can I challenge the appraised value?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           Yes, if you believe the appraised value is inaccurate, you can discuss
           your concerns with the lender. You may also provide additional
           information or comparable sales that support your position. However,
@@ -171,10 +173,10 @@ export function FaqAccordion() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-14">
-        <AccordionTrigger className="text-lg">
+        <AccordionTrigger className="text-left text-lg">
           How can I schedule an appraisal with Golden Poppy Appraisal?
         </AccordionTrigger>
-        <AccordionContent className="text-lg">
+        <AccordionContent className="text-left text-lg">
           To schedule an appraisal or for any inquiries, please contact us
           directly through our website or give us a call. Our team is ready to
           assist you with your residential appraisal needs.

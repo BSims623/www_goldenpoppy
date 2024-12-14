@@ -16,8 +16,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-end bg-primary px-4 sm:justify-between lg:px-10">
-      <div className="hidden gap-4 sm:flex">
+    <nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-end justify-between bg-primary px-4 lg:px-10">
+      <div className="flex items-center gap-4">
         <ExportedImage
           className="object-cover"
           src="/images/orange_poppy_logo.png"
@@ -27,7 +27,7 @@ export default function Navbar() {
         />
         <Link href="/">
           <div
-            className={`text-4xl font-light ${cormorant.className} whitespace-nowrap`}
+            className={`text-xl font-light sm:text-4xl ${cormorant.className} whitespace-nowrap`}
           >
             Golden Poppy Appraisal
           </div>

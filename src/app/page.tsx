@@ -13,7 +13,7 @@ export default function Home() {
           priority
         />
       </div>
-      <section className="flex items-center justify-center bg-secondary px-4 py-20">
+      <section className="flex items-center justify-center bg-secondary px-4 py-10 lg:py-20">
         <div className="grid w-full max-w-5xl gap-4 lg:grid-cols-[400px_auto]">
           <ExportedImage
             className="mx-auto rounded"
@@ -22,7 +22,7 @@ export default function Home() {
             width={400}
             height={400}
           />
-          <div className="h-full rounded px-4 text-primary">
+          <div className="h-full rounded text-primary">
             <h1 className="mb-4 text-center text-2xl font-bold">
               About Golden Poppy Appraisal
             </h1>

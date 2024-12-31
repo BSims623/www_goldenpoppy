@@ -99,7 +99,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -112,7 +112,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Company</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe Inc." {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -125,7 +125,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="johndoe@gmail.com" {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -138,7 +138,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Phone Number</FormLabel>
               <FormControl>
-                <Input placeholder="916-398-7330" {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -153,7 +153,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Who is the report addressed to?</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -166,7 +166,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Owner</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -179,7 +179,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Address</FormLabel>
               <FormControl>
-                <Input placeholder="123 Sacramento Way" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -192,7 +192,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Address 2</FormLabel>
               <FormControl>
-                <Input placeholder="PO Box 123" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -205,7 +205,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>City</FormLabel>
               <FormControl>
-                <Input placeholder="Sacramento" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -218,7 +218,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Province/State</FormLabel>
               <FormControl>
-                <Input placeholder="CA" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -231,7 +231,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Postal/Zip Code</FormLabel>
               <FormControl>
-                <Input placeholder="94203" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -244,11 +244,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Additional Info</FormLabel>
               <FormControl>
-                <Textarea
-                  placeholder="Additional info..."
-                  {...field}
-                  required
-                />
+                <Textarea {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>

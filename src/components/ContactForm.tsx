@@ -75,7 +75,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Name</FormLabel>
               <FormControl>
-                <Input placeholder="John Doe" {...field} required />
+                <Input {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -88,7 +88,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Email</FormLabel>
               <FormControl>
-                <Input placeholder="johndoe@gmail.com" {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -101,7 +101,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Phone Number</FormLabel>
               <FormControl>
-                <Input placeholder="916-398-7330" {...field} />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -114,7 +114,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>How did you hear about us?</FormLabel>
               <FormControl>
-                <Textarea placeholder="Google" {...field} required />
+                <Textarea {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -127,11 +127,7 @@ export function ContactForm() {
             <FormItem>
               <FormLabel>Question</FormLabel>
               <FormControl>
-                <Textarea
-                  placeholder="How long does an appraisal typically take?"
-                  {...field}
-                  required
-                />
+                <Textarea {...field} required />
               </FormControl>
               <FormMessage />
             </FormItem>

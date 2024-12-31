@@ -5,7 +5,7 @@ export default function About() {
     <section className="mx-auto w-full max-w-5xl lg:hidden">
       <ExportedImage
         className="rounded"
-        src="/images/sacramento_bridge_2.jpeg"
+        src="/images/downtown_sacramento.jpg"
         alt="A photo of the Sacramento Golden Bridge at night."
         width={1024}
         height={372}
@@ -30,7 +30,7 @@ export default function About() {
       </p>
       <ExportedImage
         className="rounded"
-        src="/images/fab_40s.avif"
+        src="/images/house_2.webp"
         alt="A photo of the Sacramento Golden Bridge at night."
         width={1024}
         height={372}
@@ -76,7 +76,7 @@ export default function About() {
       </ol>
       <ExportedImage
         className="rounded"
-        src="/images/fall_in_sacramento.jpg"
+        src="/images/rainbow_bridge.jpg"
         alt="A photo of the Sacramento Golden Bridge at night."
         width={1024}
         height={372}

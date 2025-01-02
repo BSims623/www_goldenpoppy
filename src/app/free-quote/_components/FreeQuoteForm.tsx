@@ -16,12 +16,14 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import emailjs from "@emailjs/browser";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 type FreeQuoteForm = {
   name: string;
   email: string;
   report_addressee: string;
   owner: string;
+  apn_number?: string | undefined;
   address: string;
   address_two: string;
   city: string;
@@ -39,6 +41,7 @@ const formSchema = z.object({
   phone: z.string().optional(),
   report_addressee: z.string(),
   owner: z.string(),
+  apn_number: z.string().optional(),
   address: z.string(),
   address_two: z.string(),
   city: z.string(),
@@ -59,6 +62,7 @@ export function FreeQuoteForm() {
       phone: "",
       report_addressee: "",
       owner: "",
+      apn_number: "",
       address: "",
       address_two: "",
       city: "",
@@ -174,6 +178,28 @@ export function FreeQuoteForm() {
         />
         <FormField
           control={form.control}
+          name="apn_number"
+          render={({ field }) => (
+            <FormItem>
+              <FormLabel>
+                APN Number (Optional){" "}
+                <Link
+                  href="https://www.redfin.com/definition/apn"
+                  className="text-accent"
+                  target="_blank"
+                >
+                  What's this?
+                </Link>
+              </FormLabel>
+              <FormControl>
+                <Input {...field} required />
+              </FormControl>
+              <FormMessage />
+            </FormItem>
+          )}
+        />
+        <FormField
+          control={form.control}
           name="address"
           render={({ field }) => (
             <FormItem>
@@ -216,7 +242,7 @@ export function FreeQuoteForm() {
           name="state"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Province/State</FormLabel>
+              <FormLabel>State</FormLabel>
               <FormControl>
                 <Input {...field} required />
               </FormControl>
@@ -229,7 +255,7 @@ export function FreeQuoteForm() {
           name="zip"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Postal/Zip Code</FormLabel>
+              <FormLabel>Zip Code</FormLabel>
               <FormControl>
                 <Input {...field} required />
               </FormControl>

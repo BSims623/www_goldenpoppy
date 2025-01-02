@@ -188,7 +188,7 @@ export function FreeQuoteForm() {
                   className="text-accent"
                   target="_blank"
                 >
-                  What's this?
+                  What&apos;s this?
                 </Link>
               </FormLabel>
               <FormControl>

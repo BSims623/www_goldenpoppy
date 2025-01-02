@@ -27,7 +27,7 @@ export default function ServicesPage() {
           <div className="flex justify-center">Get A Free Quote &gt;</div>
         </Link>
       </section>
-      <section className="mx-auto w-full max-w-5xl">
+      <section className="mx-auto w-full max-w-3xl">
         <ExportedImage
           className="rounded"
           src="/images/coverage_map_gpa.png"

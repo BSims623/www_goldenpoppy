@@ -16,17 +16,23 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="fixed top-0 z-10 flex h-20 w-full items-center justify-end justify-between bg-primary px-4 lg:px-10">
+    <nav className="fixed top-0 z-10 flex h-28 w-full items-center justify-end justify-between bg-primary pe-4 ps-8 md:ps-16 lg:pe-10">
       <Link href="/">
         <div className="flex items-center gap-4">
           <ExportedImage
-            className="object-cover"
+            className="hidden object-cover sm:block"
+            src="/images/orange_poppy_logo.png"
+            alt="Orange poppy logo."
+            width={100}
+            height={10}
+          />
+          <ExportedImage
+            className="object-cover sm:hidden"
             src="/images/orange_poppy_logo.png"
             alt="Orange poppy logo."
             width={60}
             height={10}
           />
-
           <div
             className={`text-xl font-light sm:text-4xl ${cormorant.className} whitespace-nowrap`}
           >

@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="min-h-mainSize bg-secondary px-4 py-10 text-primary lg:py-20">
-      <About />
-      <AboutDesktop />
       <AboutOwnerDesktop />
       <AboutOwnerTablet />
       <AboutOwner />
+      <About />
+      <AboutDesktop />
     </main>
   );
 }

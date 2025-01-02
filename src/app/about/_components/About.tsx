@@ -2,7 +2,7 @@ import ExportedImage from "next-image-export-optimizer";
 
 export default function About() {
   return (
-    <section className="mx-auto w-full max-w-5xl lg:hidden">
+    <section className="mx-auto w-full max-w-5xl pt-10 lg:hidden">
       <ExportedImage
         className="rounded"
         src="/images/downtown_sacramento.jpg"
@@ -28,7 +28,7 @@ export default function About() {
         protecting buyers, sellers, and lenders alike, enabling informed
         decisions that impact one of life&apos;s most significant investments.
       </p>
-      <ExportedImage
+      {/* <ExportedImage
         className="rounded"
         src="/images/house_2.webp"
         alt="A photo of the Sacramento Golden Bridge at night."
@@ -97,7 +97,7 @@ export default function About() {
         integrity. Our team provides thorough valuations, so you can navigate
         your real estate journey with confidence, knowing your investment is
         backed by a trusted appraisal.
-      </p>
+      </p> */}
     </section>
   );
 }

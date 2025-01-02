@@ -2,7 +2,7 @@ import ExportedImage from "next-image-export-optimizer";
 
 export default function AboutDesktop() {
   return (
-    <section className="mx-auto hidden w-full max-w-5xl gap-4 lg:grid lg:grid-cols-[auto_496px]">
+    <section className="mx-auto hidden w-full max-w-5xl gap-4 pt-10 lg:grid lg:grid-cols-[auto_496px]">
       <div>
         <h1 className="mb-4 text-3xl">About Golden Poppy Appraisal</h1>
         <p className="mb-3 indent-8">
@@ -20,7 +20,7 @@ export default function AboutDesktop() {
           protecting buyers, sellers, and lenders alike, enabling informed
           decisions that impact one of life&apos;s most significant investments.
         </p>
-        <h2 className="mb-4 text-2xl">Our Process</h2>
+        {/* <h2 className="mb-4 text-2xl">Our Process</h2>
         <p className="mb-3 indent-8">
           The Golden Poppy appraisal process begins with a meticulous{" "}
           <span className="font-bold text-accent">inspection</span>, where we
@@ -73,7 +73,7 @@ export default function AboutDesktop() {
           integrity. Our team provides thorough valuations, so you can navigate
           your real estate journey with confidence, knowing your investment is
           backed by a trusted appraisal.
-        </p>
+        </p>*/}
       </div>
       <div className="flex flex-col justify-between">
         <ExportedImage
@@ -83,7 +83,7 @@ export default function AboutDesktop() {
           width={496}
           height={372}
         />
-        <ExportedImage
+        {/* <ExportedImage
           className="rounded"
           src="/images/house_2.webp"
           alt="A photo of the Sacramento Golden Bridge at night."
@@ -96,7 +96,7 @@ export default function AboutDesktop() {
           alt="A photo of the Sacramento Golden Bridge at night."
           width={496}
           height={372}
-        />
+        /> */}
       </div>
     </section>
   );

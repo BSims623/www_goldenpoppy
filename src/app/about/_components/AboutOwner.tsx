@@ -18,50 +18,19 @@ export default function AboutOwner() {
         Golden Poppy Appraisal
       </h2>
       <p className="mb-3 indent-8">
-        Kimberlee has been a proud Sacramento resident for nearly 20 years.
-        Drawn to the region in her early 20s, she found herself captivated by
-        Sacramento&apos;s growth and development. With a background in the
-        hospitality industry, Kimberlee worked with many of Sacramento&apos;s
-        renowned farm-to-fork restaurants before transitioning to a new chapter.
-      </p>
-      <p className="mb-3 indent-8">
-        Kimberlee earned her Bachelor&apos;s degree in Communications from
-        California State University, Sacramento, which has equipped her with
-        valuable skills in effective communication and relationship building.
-        She is now a certified residential appraiser with Golden Poppy
-        Appraisal, bringing her passion for the industry to the forefront. Her
-        journey into residential appraisal began with her aunt and uncle, who
-        first exposed her to the field. She recalls the early days of taping
-        hard-copy photos into reports and using Thomas Guide maps to mark
-        comparables.
-      </p>
-      <p className="mb-3 indent-8">
-        Having completed her training under two highly experienced Certified
-        Residential Appraisers, each with over 20 years of experience in the
-        Greater Sacramento Area, Kimberlee has developed a well-rounded
-        perspective on both financial lending and private-party appraisal work.
-      </p>
-      <p className="mb-3">
-        When she&apos;s not working on appraisals or continuing her professional
-        development, Kimberlee enjoys spending time with family, hiking,
-        fishing, reading, and cheering for the Las Vegas Raiders.
-      </p>
-      <p className="mb-3 indent-8">
-        Kimberlee Greenwood is the proud owner and a Certified Residential
+        Kimberlee Greenwood is the owner and sole Certified Residential
         Appraiser at Golden Poppy Appraisal, specializing in residential
         appraisals for 1&ndash;4-unit properties throughout the Greater
-        Sacramento Area. With a Bachelor&apos;s degree in Communications from
+        Sacramento Area. With a Bachelor's degree in Communications from
         California State University, Sacramento, Kimberlee leverages her strong
         communication skills alongside her expertise in real estate appraisal to
         provide accurate, reliable, and comprehensive property valuations.
-      </p>
-      <p className="mb-3 indent-8">
         Having lived in Sacramento for nearly 20 years, Kimberlee has developed
         an extensive understanding of the local market dynamics and unique
-        neighborhood characteristics, from Land Park to Roseville and Elk Grove.
-        She is committed to utilizing cutting-edge technology and up-to-date
-        market data to deliver customized valuations that meet the diverse needs
-        of her clients.
+        neighborhood characteristics, from Roseville to East Sacramento and Elk
+        Grove. She is committed to utilizing cutting-edge technology and
+        up-to-date market data to deliver customized valuations that meet the
+        diverse needs of her clients.
       </p>
       <p className="mb-3 indent-8">
         Prior to establishing Golden Poppy Appraisal, Kimberlee spent 15 years
@@ -80,11 +49,10 @@ export default function AboutOwner() {
         over 20 years of experience in the greater Sacramento area has further
         enriched her knowledge and skills.
       </p>
-      <p className="mb-3 indent-8">
+      <p className="mb-3">
         When she&apos;s not engaged in appraisals or managing her business,
         Kimberlee enjoys spending quality time with her family, exploring the
-        great outdoors through hiking and fishing, and cheering for the Las
-        Vegas Raiders.
+        great outdoors, or cheering for the Las Vegas Raiders.
       </p>
       <Link
         href="https://www.linkedin.com/in/kimberlee-greenwood-b2a215258/"

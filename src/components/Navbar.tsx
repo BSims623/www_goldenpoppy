@@ -43,48 +43,36 @@ export default function Navbar() {
       <ul
         className={`hidden gap-2 text-lg font-semibold lg:gap-4 ${josefinSans.className} lg:flex`}
       >
-        <Link href="/">
-          <li
-            className={`${pathname === "/" && "text-accent"} hover:text-accent`}
-          >
-            Home
-          </li>
-        </Link>
-        <Link href="/about">
-          <li
-            className={`${pathname === "/about" && "text-accent"} hover:text-accent`}
-          >
-            About
-          </li>
-        </Link>
-        <Link href="/services">
-          <li
-            className={`${pathname === "/services" && "text-accent"} hover:text-accent`}
-          >
-            Services
-          </li>
-        </Link>
-        <Link href="/free-quote">
-          <li
-            className={`${pathname === "/free-quote" && "text-accent"} hover:text-accent`}
-          >
-            Free Quote
-          </li>
-        </Link>
-        <Link href="/contact">
-          <li
-            className={`${pathname === "/contact" && "text-accent"} hover:text-accent`}
-          >
-            Contact
-          </li>
-        </Link>
-        <Link href="/faq">
-          <li
-            className={`${pathname === "/faq" && "text-accent"} hover:text-accent`}
-          >
-            FAQ
-          </li>
-        </Link>
+        <li
+          className={`${pathname === "/" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/">Home</Link>
+        </li>
+        <li
+          className={`${pathname === "/about" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/about">About</Link>
+        </li>
+        <li
+          className={`${pathname === "/services" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/services">Services</Link>
+        </li>
+        <li
+          className={`${pathname === "/free-quote" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/free-quote">Free Quote</Link>
+        </li>
+        <li
+          className={`${pathname === "/contact" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li
+          className={`${pathname === "/faq" && "text-accent"} hover:text-accent`}
+        >
+          <Link href="/faq">FAQ</Link>
+        </li>
       </ul>
       {isOpen ? (
         <svg

@@ -30,6 +30,9 @@ export default function ContactPage() {
             <h2 className={`my-2 text-center text-2xl ${cormorant.className}`}>
               Owner
             </h2>
+            <h2 className={`my-2 text-center text-2xl ${cormorant.className}`}>
+              Certified Residential Appraiser
+            </h2>
           </div>
           <ul className="mx-auto flex flex-col gap-4">
             <a

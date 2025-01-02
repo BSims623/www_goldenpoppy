@@ -21,7 +21,7 @@ export default function AboutOwner() {
         Kimberlee Greenwood is the owner and sole Certified Residential
         Appraiser at Golden Poppy Appraisal, specializing in residential
         appraisals for 1&ndash;4-unit properties throughout the Greater
-        Sacramento Area. With a Bachelor's degree in Communications from
+        Sacramento Area. With a Bachelor&apos;s degree in Communications from
         California State University, Sacramento, Kimberlee leverages her strong
         communication skills alongside her expertise in real estate appraisal to
         provide accurate, reliable, and comprehensive property valuations.

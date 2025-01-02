@@ -72,7 +72,7 @@ export function FreeQuoteForm() {
     const sendEmail = (values: FreeQuoteForm) => {
       emailjs
         .send("free_quote_service", "free_quote_form", values, {
-          publicKey: "ErEMFeVs-twp1r6im",
+          publicKey: "-zJGQ1spKAjra7Z4E",
         })
         .then(
           () => {

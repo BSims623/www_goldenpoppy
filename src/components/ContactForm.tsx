@@ -49,7 +49,7 @@ export function ContactForm() {
     }) => {
       emailjs
         .send("question_service", "question_form", values, {
-          publicKey: "ErEMFeVs-twp1r6im",
+          publicKey: "-zJGQ1spKAjra7Z4E",
         })
         .then(
           () => {

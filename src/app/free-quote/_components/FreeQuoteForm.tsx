@@ -192,7 +192,7 @@ export function FreeQuoteForm() {
             <FormItem>
               <FormLabel>Address 2</FormLabel>
               <FormControl>
-                <Input {...field} required />
+                <Input {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

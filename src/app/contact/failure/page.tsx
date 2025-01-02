@@ -15,20 +15,23 @@ export default function Failure() {
         Contact us via phone at{" "}
         <Link
           href="tel:+1-916-398-7330"
-          className="font-bold hover:text-accent"
+          className="font-bold text-accent hover:text-primary"
         >
           916-398-7330
         </Link>{" "}
         or email us directly at{" "}
-        <a
+        <Link
           href="mailto:Kim@GoldenPoppyAppraisal.com"
-          className="font-bold hover:text-accent"
+          className="font-bold text-accent hover:text-primary"
         >
           Kim@GoldenPoppyAppraisal.com
-        </a>
+        </Link>
         .
       </div>
-      <Link href="/" className="text-xl font-bold hover:text-accent">
+      <Link
+        href="/"
+        className="text-xl font-bold text-accent hover:text-primary"
+      >
         Return Home &gt;
       </Link>
     </main>

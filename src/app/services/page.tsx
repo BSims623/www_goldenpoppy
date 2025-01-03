@@ -75,36 +75,36 @@ export default function ServicesPage() {
           backed by a trusted appraisal.
         </p>
         <h2 className="mb-2 text-xl sm:text-2xl">Our Services</h2>
-        <ul className="mb-3 grid grid-cols-2 sm:grid-cols-3">
-          <li>Estate Settlement</li>
-          <li>Date of Death</li>
-          <li>Retrospective/Historical</li>
-          <li>Selling or Buying</li>
-          <li>Bankruptcy</li>
-          <li>Conventional and FHA Lending</li>
+        <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2 lg:grid-cols-3">
+          <li className="w-72">Estate Settlement</li>
+          <li className="w-72">Date of Death</li>
+          <li className="w-72">Retrospective/Historical</li>
+          <li className="w-72">Selling or Buying</li>
+          <li className="w-72">Bankruptcy</li>
+          <li className="w-72">Conventional and FHA Lending</li>
         </ul>
         <h2 className="mb-2 text-xl sm:text-2xl">Our Service Area Includes:</h2>
-        <ul className="mb-3 grid grid-cols-2 sm:grid-cols-3">
-          <li>Sacramento</li>
-          <li>Antelope</li>
-          <li>Carmichael</li>
-          <li>Fair Oaks</li>
-          <li>Folsom</li>
-          <li>Granite Bay</li>
-          <li>Roseville</li>
-          <li>Rocklin</li>
-          <li>Lincoln</li>
-          <li>Loomis</li>
-          <li>Auburn</li>
-          <li>Plumas Lake</li>
-          <li>Davis</li>
-          <li>Woodland</li>
-          <li>Elk Grove</li>
-          <li>Rancho Murietta</li>
-          <li>Wilton</li>
-          <li>Galt</li>
-          <li>Stockton</li>
-          <li>Lodi</li>
+        <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2 lg:grid-cols-3">
+          <li className="w-72">Sacramento</li>
+          <li className="w-72">Antelope</li>
+          <li className="w-72">Carmichael</li>
+          <li className="w-72">Fair Oaks</li>
+          <li className="w-72">Folsom</li>
+          <li className="w-72">Granite Bay</li>
+          <li className="w-72">Roseville</li>
+          <li className="w-72">Rocklin</li>
+          <li className="w-72">Lincoln</li>
+          <li className="w-72">Loomis</li>
+          <li className="w-72">Auburn</li>
+          <li className="w-72">Plumas Lake</li>
+          <li className="w-72">Davis</li>
+          <li className="w-72">Woodland</li>
+          <li className="w-72">Elk Grove</li>
+          <li className="w-72">Rancho Murietta</li>
+          <li className="w-72">Wilton</li>
+          <li className="w-72">Galt</li>
+          <li className="w-72">Stockton</li>
+          <li className="w-72">Lodi</li>
         </ul>
         <Link
           href="/free-quote"

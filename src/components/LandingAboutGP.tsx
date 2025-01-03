@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function LandingAboutGP() {
   return (
     <section className="mx-auto grid w-full max-w-5xl gap-4 px-4 pt-10 lg:grid-cols-[400px_auto] lg:pt-20">
-      <div className="relative h-full w-full">
+      <div className="relative hidden h-full w-full lg:block">
         <ExportedImage
           className="rounded object-cover"
           src="/images/interior_kitchen.jpg"
@@ -12,6 +12,13 @@ export default function LandingAboutGP() {
           fill
         />
       </div>
+      <ExportedImage
+        className="rounded lg:hidden"
+        src="/images/interior_kitchen.jpg"
+        alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
+        width={1024}
+        height={1024}
+      />
       <div className="h-full rounded text-primary">
         <h1 className="mb-4 text-center text-2xl sm:text-3xl">
           About Golden Poppy Appraisal

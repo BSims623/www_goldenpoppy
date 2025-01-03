@@ -4,13 +4,14 @@ import Link from "next/link";
 export default function LandingServices() {
   return (
     <section className="mx-auto grid w-full max-w-5xl gap-4 px-4 py-10 lg:grid-cols-[auto_400px] lg:py-20">
-      <ExportedImage
-        className="mx-auto hidden rounded lg:order-2 lg:block"
-        src="/images/duplex.jpg"
-        alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
-        width={400}
-        height={400}
-      />
+      <div className="hidden lg:relative lg:order-2 lg:block">
+        <ExportedImage
+          className="rounded object-cover"
+          src="/images/duplex.jpg"
+          alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
+          fill
+        />
+      </div>
       <ExportedImage
         className="mx-auto rounded lg:order-2 lg:hidden"
         src="/images/duplex.jpg"

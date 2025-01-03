@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer
-      className={`items center ${josefinSans.className} flex flex-col py-4`}
+      className={`items center ${josefinSans.className} flex flex-col py-6`}
     >
       <div className={`mx-auto text-2xl ${cormorant.className}`}>
         Kimberlee Greenwood

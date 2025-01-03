@@ -13,7 +13,7 @@ export default function FreeQuotePage() {
     <main className="min-h-mainSize bg-secondary px-4 py-10 text-primary lg:py-20">
       <section className="mx-auto w-full max-w-5xl">
         <ExportedImage
-          className="object-cover"
+          className="rounded"
           src="/images/community.webp"
           alt="An image of a community of homes."
           width={1024}

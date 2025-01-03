@@ -16,8 +16,8 @@ export default function FreeQuotePage() {
           className="rounded"
           src="/images/community.webp"
           alt="An image of a community of homes."
-          width={1024}
-          height={800}
+          sizes="640px, 1080px"
+          style={{ width: "100%", height: "auto" }}
           priority
         />
         <h1 className="mb-4 pt-10 text-4xl">

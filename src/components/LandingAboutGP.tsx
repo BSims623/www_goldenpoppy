@@ -7,18 +7,21 @@ export default function LandingAboutGP() {
       <div className="relative hidden h-full w-full lg:block">
         <ExportedImage
           className="rounded object-cover"
-          src="/images/interior_kitchen.jpg"
+          src="/images/downtown_sacramento_2.jpg"
           alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
+          sizes="640px"
           fill
         />
       </div>
-      <ExportedImage
-        className="rounded lg:hidden"
-        src="/images/interior_kitchen.jpg"
-        alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
-        width={1024}
-        height={1024}
-      />
+      <div className="relative h-96 w-full lg:hidden">
+        <ExportedImage
+          className="rounded object-cover"
+          src="/images/downtown_sacramento_2.jpg"
+          alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
+          sizes="640px, 1080px"
+          fill
+        />
+      </div>
       <div className="h-full rounded text-primary">
         <h1 className="mb-4 text-center text-2xl sm:text-3xl">
           About Golden Poppy Appraisal

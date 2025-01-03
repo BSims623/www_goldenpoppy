@@ -32,14 +32,14 @@ export default function AboutOwner() {
         up-to-date market data to deliver customized valuations that meet the
         diverse needs of her clients.
       </p>
-      <p className="mb-3 indent-8">
+      <p className="mb-3">
         Prior to establishing Golden Poppy Appraisal, Kimberlee spent 15 years
         in the hospitality industry, where she honed her organizational and
         interpersonal skills as an event planner at California State University,
         Sacramento. This experience has equipped her with a keen eye for detail
         and an ability to work collaboratively with clients and stakeholders.
       </p>
-      <p className="mb-3 indent-8">
+      <p className="mb-3">
         Kimberlee&apos;s journey into the world of residential appraisal began
         with exposure to the field through her aunt and uncle, which ignited her
         passion for real estate valuation. As a certified appraiser, she

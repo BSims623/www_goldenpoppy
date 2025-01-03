@@ -13,7 +13,7 @@ export default function AboutDesktop() {
           seamless experience. Among realtors, lenders, and title companies,
           it&apos;s easy to overlook a vital player: the appraiser.
         </p>
-        <p className="mb-3 indent-8">
+        <p className="mb-3">
           Our role as appraisers is to deliver a clear-eyed, unbiased opinion of
           your property&apos;s true value, helping to ensure it aligns with the
           amount being paid. This objective perspective is essential for

@@ -36,7 +36,7 @@ export default function AboutOwnerTablet() {
           height={300}
         />
       </div>
-      <p className="mb-3 indent-8">
+      <p className="mb-3">
         Prior to establishing Golden Poppy Appraisal, Kimberlee spent 15 years
         in the hospitality industry, where she honed her organizational and
         interpersonal skills as an event planner at California State University,
@@ -53,7 +53,7 @@ export default function AboutOwnerTablet() {
         over 20 years of experience in the greater Sacramento area has further
         enriched her knowledge and skills.
       </p>
-      <p className="mb-3 indent-8">
+      <p className="mb-3">
         When she&apos;s not engaged in appraisals or managing her business,
         Kimberlee enjoys spending quality time with her family, exploring the
         great outdoors, or cheering for the Las Vegas Raiders.

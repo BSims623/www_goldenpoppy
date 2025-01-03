@@ -7,7 +7,7 @@ export default function LandingAboutGP() {
       <div className="relative h-full w-full">
         <ExportedImage
           className="rounded object-cover"
-          src="/images/tmp_headshot.jpg"
+          src="/images/interior_kitchen.jpg"
           alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
           fill
         />

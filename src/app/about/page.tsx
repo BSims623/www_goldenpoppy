@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "The Golden Poppy appraisal process begins with a meticulous inspection, where we evaluate the property's key features and overall condition. This includes details like the number of bedrooms and bathrooms, location, and any features or flaws that could impact its value. Our inspections include precise measurements and sketches to confirm square footage, layout, and any visible elements that influence value.",
+    "Golden Poppy Appraisal provides comprehensive residential appraisals for 1-4-unit properties. Serving the Sacramento area and the surrounding areas such as, West Sacramento, Antelope, Carmichael, Fair Oaks, Folsom, Granite Bay, Roseville, Rocklin, Lincoln, Loomis, Auburn, Plumas Lake, Davis, Woodland, Rancho Murietta, Wilton, Stockton, Lodi, Elk Grove, and Galt. We provide appraisals for the following: Estate Settlement, Date of Death, Retrospective/Historical, Selling or Buying, Bankruptcy, and Conventional and FHA Lending",
 };
 
 export default function AboutPage() {

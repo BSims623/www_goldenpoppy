@@ -5,7 +5,7 @@ import ExportedImage from "next-image-export-optimizer";
 export const metadata: Metadata = {
   title: "Free Quote",
   description:
-    "Get an free quote for an appraisal in the Greater Sacramento Area.",
+    "Get a free quote for an appraisal in the Greater Sacramento Area.",
 };
 
 export default function FreeQuotePage() {

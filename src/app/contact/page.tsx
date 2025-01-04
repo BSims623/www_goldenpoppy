@@ -8,7 +8,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contact us with any appraisal questions or to get a free quote for an appraisal.",
+    "Contact us with any appraisal questions or to get a free quote for an appraisal. Reach us via: email, phone or using any of the forms on this website.",
 };
 
 export default function ContactPage() {

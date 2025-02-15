@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-secondary">
+    <main className="bg-secondary px-4">
       <div className="relative mx-auto flex max-w-5xl items-center justify-center pt-10 lg:h-mainSize lg:p-0">
         <ExportedImage
           className="object-cover"

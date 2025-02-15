@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function LandingAboutGP() {
   return (
-    <section className="mx-auto grid w-full max-w-5xl gap-4 px-4 pt-10 lg:grid-cols-[400px_auto] lg:pt-20">
+    <section className="mx-auto grid w-full max-w-5xl gap-4 pt-10 lg:grid-cols-[400px_auto] lg:pt-20">
       <div className="relative hidden h-full w-full lg:block">
         <ExportedImage
           className="rounded object-cover"

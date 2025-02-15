@@ -6,7 +6,7 @@ export default function AboutOwner() {
     <section className="mx-auto w-full max-w-5xl pt-10 md:hidden">
       <ExportedImage
         className="mx-auto rounded"
-        src="/images/kim_greenwood_headshot.jpeg"
+        src="/images/kim_greenwood_headshot_2.jpg"
         alt="A photo of the Kimberlee Greenwood, owner of Golden Poppy Appraisal."
         width={768}
         height={768}

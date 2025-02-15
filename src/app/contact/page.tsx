@@ -17,7 +17,7 @@ export default function ContactPage() {
       <section className="grid w-full max-w-4xl grid-cols-1 gap-4 md:grid-cols-2">
         <ExportedImage
           className="mx-auto rounded"
-          src="/images/kim_greenwood_headshot.jpeg"
+          src="/images/kim_greenwood_headshot_2.jpg"
           alt="A photo of Kim Greenwood, the owner of Golden Poppy Appraisal."
           width={400}
           height={400}

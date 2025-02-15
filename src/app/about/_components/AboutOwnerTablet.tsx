@@ -27,22 +27,23 @@ export default function AboutOwnerTablet() {
             deliver customized valuations that meet the diverse needs of her
             clients.
           </p>
+          <p className="mb-3">
+            Prior to establishing Golden Poppy Appraisal, Kimberlee spent 15
+            years in the hospitality industry, where she honed her
+            organizational and interpersonal skills as an event planner at
+            California State University, Sacramento. This experience has
+            equipped her with a keen eye for detail and an ability to work
+            collaboratively with clients and stakeholders.
+          </p>
         </div>
         <ExportedImage
           className="mx-auto mb-3 rounded"
-          src="/images/kim_greenwood_headshot.jpeg"
+          src="/images/kim_greenwood_headshot_2.jpg"
           alt="A photo of the Kimberlee Greenwood, owner of Golden Poppy Appraisal."
           width={300}
           height={300}
         />
       </div>
-      <p className="mb-3">
-        Prior to establishing Golden Poppy Appraisal, Kimberlee spent 15 years
-        in the hospitality industry, where she honed her organizational and
-        interpersonal skills as an event planner at California State University,
-        Sacramento. This experience has equipped her with a keen eye for detail
-        and an ability to work collaboratively with clients and stakeholders.
-      </p>
       <p className="mb-3">
         Kimberlee&apos;s journey into the world of residential appraisal began
         with exposure to the field through her aunt and uncle, which ignited her

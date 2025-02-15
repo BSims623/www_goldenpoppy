@@ -35,25 +35,26 @@ export default function AboutOwnerDesktop() {
             equipped her with a keen eye for detail and an ability to work
             collaboratively with clients and stakeholders.
           </p>
+          <p className="mb-3">
+            Kimberlee&apos;s journey into the world of residential appraisal
+            began with exposure to the field through her aunt and uncle, which
+            ignited her passion for real estate valuation. As a certified
+            appraiser, she understands the importance of providing an unbiased
+            opinion of value and strives to empower her clients to make informed
+            real estate decisions. Her training under two seasoned Certified
+            Residential Appraisers with over 20 years of experience in the
+            greater Sacramento area has further enriched her knowledge and
+            skills.
+          </p>
         </div>
         <ExportedImage
           className="mx-auto rounded"
-          src="/images/kim_greenwood_headshot.jpeg"
+          src="/images/kim_greenwood_headshot_2.jpg"
           alt="A photo of the Kimberlee Greenwood, owner of Golden Poppy Appraisal."
           width={400}
           height={400}
         />
       </div>
-      <p className="mb-3">
-        Kimberlee&apos;s journey into the world of residential appraisal began
-        with exposure to the field through her aunt and uncle, which ignited her
-        passion for real estate valuation. As a certified appraiser, she
-        understands the importance of providing an unbiased opinion of value and
-        strives to empower her clients to make informed real estate decisions.
-        Her training under two seasoned Certified Residential Appraisers with
-        over 20 years of experience in the greater Sacramento area has further
-        enriched her knowledge and skills.
-      </p>
       <p className="mb-3">
         When she&apos;s not engaged in appraisals or managing her business,
         Kimberlee enjoys spending quality time with her family, exploring the

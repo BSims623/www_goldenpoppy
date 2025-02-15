@@ -50,6 +50,21 @@ export default function AboutOwner() {
         enriched her knowledge and skills.
       </p>
       <p className="mb-3">
+        Kimberlee values the importance of good mentorship and the need for
+        appraisers to have strong working relationships with one another in
+        order to fully embrace the changes the industry faces. For this reason,
+        she takes pride in being an active board member of the Real Estate
+        Appraisers Association (REAA) in California where she is currently
+        serving the second year of a three-year term as corporate treasurer, and
+        the second year as Vice President of the local Sacramento chapter.
+        Between her family and the many appraising professionals that she has a
+        great working relationship with Kimberlee has access to decades of
+        information and experience at her disposal. These resources facilitate
+        the ability to provide high-quality appraisals and adapt to industry
+        needs, ensuring she is able to exceed the expectations of her clients
+        and peers.
+      </p>
+      <p className="mb-3">
         When she&apos;s not engaged in appraisals or managing her business,
         Kimberlee enjoys spending quality time with her family, exploring the
         great outdoors, or cheering for the Las Vegas Raiders.

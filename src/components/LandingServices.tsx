@@ -31,6 +31,12 @@ export default function LandingServices() {
         </p>
         <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2">
           <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Pre Listing Appraisals</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Private Sale</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
             <Link href="/services">Estate Settlement</Link>
           </li>
           <li className="w-72 cursor-pointer hover:text-accent">
@@ -40,13 +46,25 @@ export default function LandingServices() {
             <Link href="/services">Retrospective/Historical</Link>
           </li>
           <li className="w-72 cursor-pointer hover:text-accent">
-            <Link href="/services">Selling or Buying</Link>
-          </li>
-          <li className="w-72 cursor-pointer hover:text-accent">
             <Link href="/services">Bankruptcy</Link>
           </li>
           <li className="w-72 cursor-pointer hover:text-accent">
             <Link href="/services">Conventional and FHA Lending</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Bail Bonds</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Residential Measurement</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Clean Energy Residential</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Natural Disaster</Link>
+          </li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services">Wildfire Disaster</Link>
           </li>
         </ul>
         <div className="flex justify-center pt-4">

@@ -77,12 +77,18 @@ export default function ServicesPage() {
         </p>
         <h2 className="mb-2 text-xl sm:text-2xl">Our Services</h2>
         <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2 lg:grid-cols-3">
+          <li className="w-72">Pre Listing Appraisals</li>
+          <li className="w-72">Private Sale</li>
           <li className="w-72">Estate Settlement</li>
           <li className="w-72">Date of Death</li>
           <li className="w-72">Retrospective/Historical</li>
-          <li className="w-72">Selling or Buying</li>
           <li className="w-72">Bankruptcy</li>
           <li className="w-72">Conventional and FHA Lending</li>
+          <li className="w-72">Bail Bonds</li>
+          <li className="w-72">Residential Measurement</li>
+          <li className="w-72">Clean Energy Residential</li>
+          <li className="w-72">Natural Disaster</li>
+          <li className="w-72">Wildfire Disaster</li>
         </ul>
         <h2 className="mb-2 text-xl sm:text-2xl">Our Service Area Includes:</h2>
         <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2 lg:grid-cols-3">

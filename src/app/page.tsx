@@ -11,10 +11,17 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="bg-secondary px-4">
-      <div className="relative mx-auto flex max-w-5xl items-center justify-center pt-10 lg:h-mainSize lg:p-0">
+    <main className="bg-secondary px-4 md:p-0">
+      <div className="relative flex items-center justify-center pt-10 md:h-mainSize md:p-0">
         <ExportedImage
-          className="object-cover"
+          className="hidden object-cover md:block"
+          src="/images/landing_image_2.png"
+          alt="Landing image."
+          fill
+          priority
+        />
+        <ExportedImage
+          className="object-cover md:hidden"
           src="/images/landing_image_2.png"
           alt="Landing image."
           width={1024}

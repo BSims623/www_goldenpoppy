@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import emailjs from "@emailjs/browser";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -341,9 +340,9 @@ export function WildfireDisasterForm() {
               </FormLabel>
               <FormDescription>
                 Please include the size of the living area of your home. If the
-                exact size is now known, please indicate "estimate." If you have
-                additional square footage please answer that in the next
-                question.
+                exact size is now known, please indicate &quot;estimate.&quot;
+                If you have additional square footage please answer that in the
+                next question.
               </FormDescription>
               <FormControl>
                 <Input {...field} placeholder="ex. 3,500 sq ft" />
@@ -456,7 +455,8 @@ export function WildfireDisasterForm() {
             <FormItem>
               <FormLabel>Year Built</FormLabel>
               <FormDescription>
-                If the exact year built is not known, please indicate "Estimate"
+                If the exact year built is not known, please indicate
+                &quot;Estimate&quot;
               </FormDescription>
               <FormControl>
                 <Input {...field} />
@@ -1194,7 +1194,8 @@ export function WildfireDisasterForm() {
             <FormItem>
               <FormLabel>Lot Size</FormLabel>
               <FormDescription>
-                If the exact size is not known please indicate "Estimate"
+                If the exact size is not known please indicate
+                &quot;Estimate&quot;
               </FormDescription>
               <FormControl>
                 <Input

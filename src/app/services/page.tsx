@@ -88,7 +88,11 @@ export default function ServicesPage() {
           <li className="w-72">Residential Measurement</li>
           <li className="w-72">Clean Energy Residential</li>
           <li className="w-72">Natural Disaster</li>
-          <li className="w-72">Wildfire Disaster</li>
+          <li className="w-72 cursor-pointer hover:text-accent">
+            <Link href="/services/wildfire-disaster-form">
+              Wildfire Disaster
+            </Link>
+          </li>
         </ul>
         <h2 className="mb-2 text-xl sm:text-2xl">Our Service Area Includes:</h2>
         <ul className="mx-auto mb-3 flex flex-col items-center text-xl md:grid md:grid-cols-2 lg:grid-cols-3">
